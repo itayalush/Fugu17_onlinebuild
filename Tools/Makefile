@@ -1,5 +1,5 @@
 TARGETS=fastPathSign BuildVFS Exe2Driver installHaxx
-TARGETS_CLEAN=$(addsuffix _clean, $(TARGETS))
+TARGETS_CLEAN=$(addsuffix, $(TARGETS))
 TARGETS_BUILD_CLEAN=$(addsuffix _build_clean, $(TARGETS))
 
 all: $(TARGETS)
