@@ -1,6 +1,6 @@
 //
 //  JailbreakView.swift
-//  Fugu15
+//  Fugu17
 //
 //  Created by Linus Henze on 2022-07-29.
 //
@@ -68,7 +68,7 @@ struct JailbreakView: View {
             Button(status.text(), action: {
                 status = .inProgress
                 
-                DispatchQueue(label: "Fugu15").async {
+                DispatchQueue(label: "Fugu17").async {
                     launchExploit()
                 }
             })
