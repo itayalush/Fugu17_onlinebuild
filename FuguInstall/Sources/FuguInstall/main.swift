@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  FuguInstall
+//  FuguInstall17
 //
 //  Created by Linus Henze.
 //  Copyright © 2022 Pinauten GmbH. All rights reserved.
