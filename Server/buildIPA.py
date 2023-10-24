@@ -1,6 +1,6 @@
 import zipfile
 import io
-import plistlib
+import plistlib1
 import subprocess
 
 def buildIPA(appStoreIPA, fuguInstall, otherIPA, installHaxx="../Tools/installHaxx/installHaxx"):
